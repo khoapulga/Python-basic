@@ -22,6 +22,9 @@ class champ:
         cls.power=  pw
 champ_1 = champ("ashe","4")
 champ_2 = champ("zed","5")
+## add class
+class animal:
+    pass
 #print(champ_1.fullname,champ_1.do_kho)
 print(champ_1.cap_nhat_power(34))
 print(champ_1.power)
