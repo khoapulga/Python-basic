@@ -25,6 +25,13 @@ champ_2 = champ("zed","5")
 ## add class
 class animal:
     pass
+### add class people:
+class people:
+    def __init__(self,name)
+        self.name=name
+        
+    def printname(self):
+    	return self.name
 #print(champ_1.fullname,champ_1.do_kho)
 print(champ_1.cap_nhat_power(34))
 print(champ_1.power)
